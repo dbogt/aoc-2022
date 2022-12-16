@@ -48,3 +48,17 @@ https://adventofcode.com/2022/day/1
   print(totalCals[-3:], "Sum top 3", np.sum(totalCals[-3:]))
   ```
 </details>
+
+<details>
+  <summary>Part 1 "Clever" Solution</summary>
+  
+  Here's also the "clever" solution for part 1 that's a lot shorter using list comprehension:
+
+  ```python
+  #%% Part 1 Clever
+  calories = [[int(x) for x in  elf.splitlines()] for elf in inputs.split('\n\n')]
+  totalCals = [np.sum(cals) for cals in calories]
+  maxCals = np.max(totalCals)
+  print("Max calories:", maxCals)
+  ```
+</details
