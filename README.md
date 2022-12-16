@@ -1,4 +1,4 @@
-#Advent of Code 2022
+# Advent of Code 2022
 
 This repo contains hints for each day of Advent of Code 2022 challenge along with my solutions for part 1 and 2.
 https://adventofcode.com/2022
