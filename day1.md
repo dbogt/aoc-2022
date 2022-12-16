@@ -1,10 +1,10 @@
 ## [AOC2022-D01] Day 1: Calorie Counting
 - nice easy one to start
 - trickiest part is getting the text manipulation correctly
-- my hint for this one, check my tips above on using inputs.splitlines()
+- my hint for this one, check my tips above on using `inputs.splitlines()`
   - however, before you do the splitlines, first do a normal python string .split() on '\n\n'; '\n' is the special symbol for the "enter character" so basically need to tell it to split at 2x Enter (ie the blank lines)
 - once you have that properly split, you can do some loops to convert the text into ints and calculate the calories
-- would also recommend numpy here, and borrow their np.max(), np.sum()
+- would also recommend numpy here, and borrow their `np.max()`, `np.sum()`
 
 https://adventofcode.com/2022/day/1
 
@@ -34,5 +34,17 @@ https://adventofcode.com/2022/day/1
   totalCals = [np.sum(cals) for cals in calories]
   maxCals = np.max(totalCals)
   print("Max calories:", maxCals)
+  ```
+</details>
+
+<details>
+  <summary>Part 2 Solution</summary>
+  
+  Just need to sort and then print out last 3 items in list.
+  
+  ```python
+  #%% Part 2
+  totalCals.sort()
+  print(totalCals[-3:], "Sum top 3", np.sum(totalCals[-3:]))
   ```
 </details>
