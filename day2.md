@@ -6,9 +6,6 @@ https://adventofcode.com/2022/day/2
 <details>
   <summary>Part 1 Solution</summary>
   
-  I wanted to get clever with my list comprehension, but kept it relatively simple and just did a normal for loop at one point for Part 1.
-  Part 2 was pretty easy with just doing a quick .sort (built-in list method) and then slicing on the last 3 numbers.
-
   ```python
   #%% Source files
   fPath = "../aoc-2022-Src/"
