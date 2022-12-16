@@ -5,7 +5,7 @@ https://adventofcode.com/2022
 
 Below is also a summary of all the days.
 
-- [AOC2022-D01] Day 1: Calorie Counting: https://adventofcode.com/2022/day/1
+- [AOC2022-D01](day1.md) Day 1: Calorie Counting: https://adventofcode.com/2022/day/1
 - [AOC2022-D02] Day 2: Rock Paper Scissors: https://adventofcode.com/2022/day/2
 - [AOC2022-D03] Day 3: Rucksack Reorganization: https://adventofcode.com/2022/day/3
 - [AOC2022-D04] Day 4: Camp Cleanup: https://adventofcode.com/2022/day/4
