@@ -1,5 +1,5 @@
 ## [AOC2022-D04] Day 4: Camp Cleanup
-- Another day of using sets in Python and the intersection method used for yesterday's solve came in handy today (again can also use set1 & set2)
+- Another day of using sets in Python and the intersection method used for yesterday's solve came in handy today (again can also use `set1 & set2`)
 - Part 2 was super fast if you've set up part 1 with sets as well (only added 2 more lines of code to my part 1 to solve part 2)
 
 https://adventofcode.com/2022/day/4
