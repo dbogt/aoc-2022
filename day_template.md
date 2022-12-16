@@ -1,6 +1,7 @@
 ## [AOC2022-D0x] Day x: TITLE
 - hint1
 - hint2
+
 https://adventofcode.com/2022/day/x
 
 <details>
